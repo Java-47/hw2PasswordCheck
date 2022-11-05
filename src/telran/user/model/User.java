@@ -91,15 +91,7 @@ public class User {
 				specialSymbolCount++;
 			}
 		}
-		if(upperCaseCount>0 && digitCount>0 && lowerCaseCount>0 && specialSymbolCount>0)
-		{
-			return true;
-		}
-		else {
-			return false;
-		}
-		
-		
+		return (upperCaseCount>0 && digitCount>0 && lowerCaseCount>0 && specialSymbolCount>0);
 		
 	}
 	
